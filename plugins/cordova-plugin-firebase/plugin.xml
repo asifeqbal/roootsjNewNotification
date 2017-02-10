@@ -24,7 +24,7 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 			<string name="google_app_id">509786912381</string>
 		</config-file>
 		<config-file parent="/resources" target="res/values/strings.xml">
-			<string name="google_api_key">AIzaSyB_DBqldsoJudP3rjTxQ4rtrQRr42zewZg</string>
+			<string name="google_api_key">AIzaSyBD_oB1MUslwm4XtWwi6I9gq8iuQwkDvsY</string>
 		</config-file>
 		<config-file target="AndroidManifest.xml" parent="/*">
 				<uses-permission android:name="android.permission.INTERNET" />
