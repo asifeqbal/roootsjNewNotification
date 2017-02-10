@@ -12,6 +12,10 @@
         },
         "cordova-plugin-firebase": {
             "PACKAGE_NAME": "com.robhaenenroootsj.Roootsj"
+        },
+        "phonegap-plugin-push": {
+            "SENDER_ID": "509786912381",
+            "PACKAGE_NAME": "com.robhaenenroootsj.Roootsj"
         }
     },
     "dependent_plugins": {}

@@ -89,6 +89,7 @@ ext {
 
 // PLUGIN GRADLE EXTENSIONS START
 apply from: "cordova-plugin-firebase/Roootsj-build.gradle"
+apply from: "phonegap-plugin-push/Roootsj-push.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras = file('build-extras.gradle').exists()
@@ -254,6 +255,9 @@ dependencies {
     compile "com.google.firebase:firebase-messaging:+"
     compile "com.google.firebase:firebase-crash:+"
     compile "com.google.firebase:firebase-config:+"
+    compile "com.android.support:support-v13:23+"
+    compile "com.google.android.gms:play-services-gcm:9.8+"
+    compile "me.leolin:ShortcutBadger:1.1.11@aar"
     // SUB-PROJECT DEPENDENCIES END
 }
 
