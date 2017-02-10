@@ -47,7 +47,17 @@
 				}, function(error) {
 					alert(error);
 				});
-			
+				window.FirebasePlugin.onTokenRefresh(function(token) {
+					// save this server-side and use it to push notifications to this device
+					alert(token);
+				}, function(error) {
+					alert(error);
+				});
+				window.FirebasePlugin.onNotificationOpen(function(notification) {
+					alert(notification);
+				}, function(error) {
+					alert(error);
+				});
 			}
 		</script>
     </body>
