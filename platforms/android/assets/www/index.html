@@ -41,7 +41,7 @@
 			{ 
 				alert('hidddden');
 				
-				window.FirebasePlugin.getToken(function(token) {
+				window.FirebasePlugin.onTokenRefresh(function(token) {
 					// save this server-side and use it to push notifications to this device
 					alert(token);
 				}, function(error) {
